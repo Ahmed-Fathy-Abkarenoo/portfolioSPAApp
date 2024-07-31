@@ -30,7 +30,9 @@ export default function Navbar() {
       <nav className="w-full bg-[#2C3D4F] py-4 lg:py-6 fixed z-40">
         <div className="container mx-auto flex justify-between items-center px-4 py-3">
           <div className="logo">
-            <Link to="/" className="text-xl lg:text-3xl font-bold text-white">
+            <Link
+              to="/portfolioSPAApp"
+              className="text-xl lg:text-3xl font-bold text-white">
               START FRAMEWORK
             </Link>
           </div>
@@ -38,13 +40,13 @@ export default function Navbar() {
           <div className="nav-links lg:block hidden">
             <ul className="flex gap-14 *:font-bold *:text-white">
               <li>
-                <NavLink to="/about">ABOUT</NavLink>
+                <NavLink to="about">ABOUT</NavLink>
               </li>
               <li>
-                <NavLink to="/portfolio">PORTFOLIO</NavLink>
+                <NavLink to="portfolio">PORTFOLIO</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">CONTACT</NavLink>
+                <NavLink to="contact">CONTACT</NavLink>
               </li>
             </ul>
           </div>

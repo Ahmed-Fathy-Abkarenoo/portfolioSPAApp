@@ -9,7 +9,7 @@ import Layout from "./Components/Layout/Layout";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "portfolioSPAApp",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
