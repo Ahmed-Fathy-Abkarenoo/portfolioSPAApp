@@ -12,13 +12,13 @@ export default function Navbar() {
       <div className="nav-links lg:hidden block mt-6">
         <ul className="*:font-bold *:text-white flex flex-col gap-6">
           <li>
-            <NavLink to="/about">ABOUT</NavLink>
+            <NavLink to="about">ABOUT</NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio">PORTFOLIO</NavLink>
+            <NavLink to="portfolio">PORTFOLIO</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">CONTACT</NavLink>
+            <NavLink to="contact">CONTACT</NavLink>
           </li>
         </ul>
       </div>
